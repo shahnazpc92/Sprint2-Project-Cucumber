@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-11T05:27:14Z" name="Default suite" finished-at="2022-06-11T05:28:30Z" duration-ms="75987">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.TestRunner@18e7143f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-11T05:27:14Z" name="Default test" finished-at="2022-06-11T05:28:30Z" duration-ms="75987">
+      <class name="sprintOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:sprintOptions.TestRunner@18e7143f]" started-at="2022-06-11T10:57:49Z" name="setUpClass" finished-at="2022-06-11T10:57:49Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.TestRunner@18e7143f]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.TestRunner@18e7143f]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Footer Navigation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.TestRunner@18e7143f]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Newsletter Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:sprintOptions.TestRunner@18e7143f]" started-at="2022-06-11T10:57:50Z" name="tearDownClass" finished-at="2022-06-11T10:57:50Z" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- sprintOptions.TestRunner -->
+      <class name="pages.Contactus">
+        <test-method signature="initialize()[pri:0, instance:pages.Contactus@6fefce9e]" started-at="2022-06-11T10:57:14Z" name="initialize" finished-at="2022-06-11T10:57:32Z" duration-ms="17589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- pages.Contactus -->
+      <class name="sprintOptions.NavigationRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" started-at="2022-06-11T10:57:50Z" name="setUpClass" finished-at="2022-06-11T10:57:50Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Footer Navigation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Newsletter Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:sprintOptions.NavigationRunner@74cec793]" started-at="2022-06-11T10:57:50Z" name="tearDownClass" finished-at="2022-06-11T10:57:50Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- sprintOptions.NavigationRunner -->
+      <class name="sprintOptions.ContactRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" started-at="2022-06-11T10:57:50Z" name="setUpClass" finished-at="2022-06-11T10:57:50Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Footer Navigation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Newsletter Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:sprintOptions.ContactRunner@f9b7332]" started-at="2022-06-11T10:57:50Z" name="tearDownClass" finished-at="2022-06-11T10:57:50Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- sprintOptions.ContactRunner -->
+      <class name="pages.NewsletterPage">
+        <test-method signature="initialize()[pri:0, instance:pages.NewsletterPage@4985cbcb]" started-at="2022-06-11T10:57:32Z" name="initialize" finished-at="2022-06-11T10:57:49Z" duration-ms="17130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- pages.NewsletterPage -->
+      <class name="sprintOptions.NewsletterRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" started-at="2022-06-11T10:57:50Z" name="setUpClass" finished-at="2022-06-11T10:57:50Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contact Us Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Footer Navigation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" started-at="2022-06-11T10:57:50Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-06-11T10:57:50Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Newsletter Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:sprintOptions.NewsletterRunner@1fc0053e]" started-at="2022-06-11T10:57:50Z" name="tearDownClass" finished-at="2022-06-11T10:57:50Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- sprintOptions.NewsletterRunner -->
+      <class name="pages.FooterNavigationPage">
+        <test-method signature="initialize()[pri:0, instance:pages.FooterNavigationPage@72e34f77]" started-at="2022-06-11T10:57:50Z" name="initialize" finished-at="2022-06-11T10:58:30Z" duration-ms="40585" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'INLEN8520068491', ip: '192.168.29.171', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\SHAHNPAT\AppData\Local\Temp\scoped_dir1176_1105138239}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64737}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=102.0.5005.115, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 42d6ae5911b6350bda2db629fee08194]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'INLEN8520068491', ip: '192.168.29.171', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=101.0.4951.41 (93c720db8323b3ec10d056025ab95c23a31997c9-refs/branch-heads/4951@{#904}), userDataDir=C:\Users\SHAHNPAT\AppData\Local\Temp\scoped_dir1176_1105138239}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64737}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=102.0.5005.115, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 42d6ae5911b6350bda2db629fee08194
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+	at pages.FooterNavigationPage.initialize(FooterNavigationPage.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.RuntimeException: Process refused to die after 10 seconds, and couldn't taskkill it: Couldn't detect pid
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:133)
+	at org.openqa.selenium.os.ProcessUtils.killProcess(ProcessUtils.java:81)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.destroyHarder(UnixProcess.java:246)
+	at org.openqa.selenium.os.UnixProcess$SeleniumWatchDog.access$200(UnixProcess.java:200)
+	at org.openqa.selenium.os.UnixProcess.destroy(UnixProcess.java:126)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:221)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:94)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	... 27 more
+Caused by: java.lang.RuntimeException: Couldn't detect pid
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:195)
+	at org.openqa.selenium.os.ProcessUtils.killWinProcess(ProcessUtils.java:128)
+	... 35 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final long java.lang.ProcessImpl.handle accessible: module java.base does not "opens java.lang" to unnamed module @1b9e1916
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:171)
+	at org.openqa.selenium.os.ProcessUtils.getProcessId(ProcessUtils.java:181)
+	... 36 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- pages.FooterNavigationPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

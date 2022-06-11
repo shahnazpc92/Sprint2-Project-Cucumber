@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="pages.FooterNavigationPage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- pages.FooterNavigationPage -->
+      <class name="sprintOptions.NewsletterRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- sprintOptions.NewsletterRunner -->
+      <class name="sprintOptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- sprintOptions.TestRunner -->
+      <class name="sprintOptions.NavigationRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- sprintOptions.NavigationRunner -->
+      <class name="sprintOptions.ContactRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- sprintOptions.ContactRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
